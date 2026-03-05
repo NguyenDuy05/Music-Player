@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background: #020617;
+  padding: 25px;
+}
+
+.main {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+  margin-bottom: 100px;
+}
+
+.albums {
+  display: flex;
+  gap: 20px;
+}
+
+.album-card {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  width: 180px;
+  cursor: pointer;
+}
+
+.album-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.chart-item {
+  display: flex;
+  justify-content: space-between;
+  background: #1e293b;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  background: #020617;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.player-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.player-center {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search input {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  width: 300px;
+}
